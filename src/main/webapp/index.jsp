@@ -4,15 +4,17 @@
   <%
     double num = Math.random();
     if (num > 0.95) {
+ System.out.println(num+ "::::You'll have a luck day!::::>>>>" );
   %>
       <h2>You'll have a luck day!</h2><p>(<%= num %>)</p>
-     System.out.println( "You'll have a luck day!" );
+     
   <%
     } else {
+System.out.println( num +"::::::Well, life goes on ::::::::>>>>" );
   %>
       <h2>Well, life goes on ... </h2><p>(<%= num %>)</p>
 
-	System.out.println( "Well, life goes on ..." );
+	
   <%
     }
   %>
